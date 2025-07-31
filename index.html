@@ -7,15 +7,9 @@
     <title>Portfolio DAN</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <script src="https://kit.fontawesome.com/2d9601ce37.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
-
-        body {
-            font-family: 'Roboto Mono', monospace;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
 
         .foto-perfil {
             width: 80px;
@@ -27,32 +21,35 @@
 <body>
 
     <header id="header" class="header">
-        <h1> <i class="fa-solid fa-terminal"></i> </i> Daniel Alves </h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#sobre-mim">Sobre mim</a></li>
-                <li><a href="#instagram"><i class="fa-brands fa-instagram"></i> Instagram</a></li>
-                <li><a href="#github"><i class="fa-brands fa-github"></i> GitHub</a></li>
-                <li><a href="#discord"><i class="fa-brands fa-discord"></i> Discord</a></li>
-            </ul>
-        </nav>
+        <h1 class="nome-header"><i class="fa-solid fa-terminal" style="color: #12f7d6;"></i>DAN</h1>
+
+        <div class="links-nav-header">
+            <div class="navegacao-header">
+                <a href="#home">Home</a>
+                <a href="#sobre-mim">Sobre Mim</a>
+            </div>
+
+            <div class="link-redes-header">
+                <a href="#instagram"><i class="fa-brands fa-instagram" style="color: #12f7d6;"></i> Instagram</a></li>
+                <a href="#github"><i class="fa-brands fa-github" style="color: #12f7d6;"></i> GitHub</a></li>
+            </div>
+        </div>
     </header>
 
     <section id="home" class="home">
         <div class="home-title">
-            <h1>Full-Stack</h1>
+            <h1><span class="span-azul">Full-Stack</span></h1>
         </div>
 
         <div class="home-description">
             <h2>
-                <span class="&lt,&gt">&lt;h1&gt;</span><br>
-                Olá, eu sou Daniel Alves, um desenvolvedor Full-Stack.<span class="&lt,&gt">&lt;/h1&gt;</span>
+                <span class="span-azul">&lt;h1&gt;</span><br>
+                Olá, eu sou <span class="span-azul">Daniel</span> , um desenvolvedor Full-Stack.<span class="span-azul">&lt;/h1&gt;</span>
             </h2>
-            <p><span class="&lt,&gt">&lt;p&gt;</span><br><br>Bem-vindo ao meu portfólio! Aqui você encontrará uma
+            <p><span class="span-azul">&lt;p&gt;</span><br><br>Bem-vindo ao meu portfólio! Aqui você encontrará uma
                 seleção dos meus projetos e habilidades.</p>
             <p>Estou sempre em busca de novos desafios e oportunidades para aprender e crescer como
-                desenvolvedor.<br><br><span class="&lt,&gt">&lt;p&gt;</span><br></p>
+                desenvolvedor.<br><br><span class="span-azul">&lt;p&gt;</span><br></p>
             <a href="">Vamos conversar <i class="fa-solid fa-message"></i></a>
         </div>
 
