@@ -65,9 +65,16 @@ header {
 }
 
 
-@media (max-width: 1250px) {
-    header {
+@media (max-width: 850px) {
+    .header {
         flex-direction: column;
         align-items: center;
+        padding: 20px 0;
+    }
+
+    .nome-header, .navegacao-header, .link-redes-header {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
     }
 }
