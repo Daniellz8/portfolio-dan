@@ -1,44 +1,234 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Portfolio DAN </></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio DAN</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://kit.fontawesome.com/2d9601ce37.js" crossorigin="anonymous"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+        body {
+            font-family: 'Roboto Mono', monospace;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .foto-perfil {
+            width: 80px;
+            height: 80px
+        }
+    </style>
 </head>
+
 <body>
 
-<header id="header" class="header">
-    <h1><span><D/></span> Daniel Alves</h1>
-    <nav>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#sobre-mim">Sobre mim</a></li>
-            <li><a href="#instagram">Instagram</a></li>
-            <li><a href="#github">GitHub</a></li>
-            <li><a href="#discord">Discord</a></li>
-        </ul>
-    </nav>
-</header>
+    <header id="header" class="header">
+        <h1> <i class="fa-solid fa-terminal"></i> </i> Daniel Alves </h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre-mim">Sobre mim</a></li>
+                <li><a href="#instagram"><i class="fa-brands fa-instagram"></i> Instagram</a></li>
+                <li><a href="#github"><i class="fa-brands fa-github"></i> GitHub</a></li>
+                <li><a href="#discord"><i class="fa-brands fa-discord"></i> Discord</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<section id="home" class="home">
-    <h2>Bem-vindo ao meu portfólio!</h2>
-    <p>Este é um espaço onde compartilho meus projetos e experiências.</p>
-</section>
+    <section id="home" class="home">
+        <div class="home-title">
+            <h1>Full-Stack</h1>
+        </div>
 
-<section id="sobre-mim" class="sobre-mim">
-</section>
+        <div class="home-description">
+            <h2>
+                <span class="&lt,&gt">&lt;h1&gt;</span><br>
+                Olá, eu sou Daniel Alves, um desenvolvedor Full-Stack.<span class="&lt,&gt">&lt;/h1&gt;</span>
+            </h2>
+            <p><span class="&lt,&gt">&lt;p&gt;</span><br><br>Bem-vindo ao meu portfólio! Aqui você encontrará uma
+                seleção dos meus projetos e habilidades.</p>
+            <p>Estou sempre em busca de novos desafios e oportunidades para aprender e crescer como
+                desenvolvedor.<br><br><span class="&lt,&gt">&lt;p&gt;</span><br></p>
+            <a href="">Vamos conversar <i class="fa-solid fa-message"></i></a>
+        </div>
 
-<section id="skills" class="skills">
-</section>
+        <div class="barra-nav-home">
+            <a href="#sobre-mim" class="nav-link" title="Sobre mim"><i class="fa-solid fa-house"></i></a>
+            <a href="#skills" class="nav-link" title="Skills"><i class="fa-solid fa-cubes"></i></a>
+            <a href="#works" class="nav-link" title="Projetos"><i class="fa-solid fa-laptop-code"></i></a>
+            <a href="#contact" class="nav-link" title="Contato"><i class="fa-solid fa-envelope"></i></a>
+        </div>
 
-<section id="works" class="works">
-</section>
+        <div class="card-portfolio">
+            <div class="tipo-perfil">
+                <img src="assets/imagens/perfilEX.png" alt="foto-perfil" class="foto-perfil">
+                <h3>Daniel Alves</h3>
+                <p>Desenvolvedor Full-Stack</p>
+            </div>
 
-<section id="contact" class="contact">
-</section>
+            <div class="informacoes-card-portfolio">
+                <a href="" class="email-link" title="Enviar e-mail"><i class="fa-solid fa-envelope"></i> E-mail</a>
+                <a href="" class="endereco-link" title="Ver endereço"><i class="fa-solid fa-map-marker-alt"></i>
+                    Endereço</a>
+                <a href="" class="tempo-disponivel-link" title="Tempo disponível"><i class="fa-solid fa-clock"></i>
+                    Disponível</a>
+                <a href="" class="github-link" title="Ver GitHub"><i class="fa-brands fa-github"></i> GitHub</a>
+                <a href="" class="linkedin-link" title="Ver LinkedIn"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+            </div>
 
-<footer class="footer">
-    <p>&copy; 2023 Daniel Alves. Todos os direitos reservados.</p>
-</footer>
+            <div class="habilidades-card-portfolio">
+                <h4>Habilidades</h4>
+                <ul>
+                    <li></i> HTML</li>
+                    <li></i> CSS</li>
+                    <li></i> JavaScript</li>
+                    <li></i> Node.js</li>
+                </ul>
+            </div>
+
+            <div class="download-cv">
+                <a href="assets/curriculo/CV-Daniel-Alves.pdf" download class="download-link" title="Baixar CV"><i
+                        class="fa-solid fa-file-download"></i> Download CV</a>
+            </div>
+        </div>
+
+        <div class="card-info-adicionais">
+            <h3><span>4</span> Linguagens de Programação</h3>
+            <h3><span>6</span> Ferramentas de Desenvolvimento</h3>
+            <h3><span>2</span> Anos de Experiência</h3>
+        </div>
+    </section>
+
+    <section id="sobre-mim" class="sobre-mim">
+        <div class="role-scroll">
+            <p><i class="fa-solid fa-angles-down"></i> Role para baixo <i class="fa-solid fa-angles-down"></i></p>
+        </div>
+
+        <div class="titulo-sobre-mim">
+            <h2>Sobre mim</h2>
+        </div>
+
+        <div class="descricao-sobre-mim">
+            <p><span class="&lt,&gt">&lt;article&gt;</span></p>
+            <h3>Quem sou eu?</h3>
+            <p>Olá, meu nome é Daniel Alves e sou um desenvolvedor Full-Stack apaixonado por criar soluções inovadoras.
+                Tenho experiência em diversas tecnologias e estou sempre em busca de aprender mais.</p>
+            <p>Meu objetivo é desenvolver aplicações que não apenas atendam às necessidades dos usuários, mas que também
+                proporcionem uma experiência agradável e intuitiva.</p>
+            <p>Estou sempre aberto a novos desafios e oportunidades de crescimento profissional. Se você está procurando
+                um desenvolvedor comprometido e criativo, entre em contato!</p>
+            <p><span class="&lt,&gt">&lt;/article&gt;</span></p>
+        </div>
+        <div class="foto-sobre-mim">
+            <img src="assets/imagens/perfilEX.png" alt="Foto de Daniel Alves" class="foto-perfil">
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="role-scroll">
+            <p><i class="fa-solid fa-angles-down"></i> Role para baixo <i class="fa-solid fa-angles-down"></i></p>
+        </div>
+
+        <div class="titulo-skills">
+            <h2>Skills</h2>
+            <p>Minhas habilidades incluem:</p>
+        </div>
+
+        <div class="card-skills">
+            <div class="skill-item">
+                <h3>HTML</h3>
+                <p>Conhecimento avançado em HTML5, com foco em acessibilidade e semântica.</p>
+            </div>
+            <div class="skill-item">
+                <h3>CSS</h3>
+                <p>Experiência em CSS3, incluindo Flexbox e Grid Layout para design responsivo.</p>
+            </div>
+            <div class="skill-item">
+                <h3>JavaScript</h3>
+                <p>Domínio de JavaScript ES6+, com experiência em frameworks como React e Vue.js.</p>
+            </div>
+            <div class="skill-item">
+                <h3>Node.js</h3>
+                <p>Desenvolvimento de APIs RESTful e aplicações back-end com Node.js e Express.</p>
+            </div>
+    </section>
+
+    <section id="works" class="works">
+        <div class="role-scroll">
+            <p><i class="fa-solid fa-angles-down"></i> Role para baixo <i class="fa-solid fa-angles-down"></i></p>
+        </div>
+
+        <div class="titulo-works">
+            <h2>Projetos</h2>
+            <p>Aqui estão alguns dos meus projetos mais recentes:</p>
+        </div>
+
+        <div class="card-works">
+            <div class="work-item">
+                <h3>Projeto 1</h3>
+                <p>Descrição do projeto 1. Um projeto incrível que resolve problemas reais.</p>
+                <a href="#" class="project-link">Ver Projeto</a>
+            </div>
+            <div class="work-item">
+                <h3>Projeto 2</h3>
+                <p>Descrição do projeto 2. Uma aplicação inovadora que melhora a experiência do usuário.</p>
+                <a href="#" class="project-link">Ver Projeto</a>
+            </div>
+            <div class="work-item">
+                <h3>Projeto 3</h3>
+                <p>Descrição do projeto 3. Um projeto colaborativo que demonstra minhas habilidades em equipe.</p>
+                <a href="#" class="project-link">Ver Projeto</a>
+            </div>
+    </section>
+
+    <section id="contact" class="contact">
+
+        <div class="role-scroll">
+            <p><i class="fa-solid fa-angles-down"></i> Role para baixo <i class="fa-solid fa-angles-down"></i></p>
+        </div>
+
+        <div class="titulo-contact">
+            <h2>Contato</h2>
+            <p>Gostaria de entrar em contato? Preencha o formulário abaixo:</p>
+        </div>
+
+        <div class="form-contact">
+            <form action="#" method="post">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2025 Daniel Alves. Todos os direitos reservados.</p>
+            <p>Desenvolvido por Daniel Alves</p>
+        </div>
+
+        <div class="privacy-policy">
+            <a href="#">Política de Privacidade</a>
+            <a href="#">Termos de Uso</a>
+
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#sobre-mim">Sobre mim</a>
+                <a href="#skills">Skills</a>
+                <a href="#works">Projetos</a>
+                <a href="#contact">Contato</a>
+            </div>
+    </footer>
 
 </html>
