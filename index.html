@@ -10,11 +10,6 @@
     <link rel="stylesheet" href="style.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
-
-        .foto-perfil {
-            width: 80px;
-            height: 80px
-        }
     </style>
 </head>
 
@@ -25,74 +20,92 @@
             <h1 class="nome-header"><i class="fa-solid fa-terminal" style="color: #12f7d6;"></i>Daniel Alves</h1>
             <div class="link-redes-header">
                 <a href="#instagram"><i class="fa-brands fa-instagram" style="color: #12f7d6;"></i> Instagram</a></li>
-                <a href="#linkedin"><i class="fa-brands fa-linkedin" style="color: #12f7d6;"></i> LinkedIn</a></li>
                 <a href="#whatsapp"><i class="fa-brands fa-whatsapp" style="color: #12f7d6;"></i> WhatsApp</a></li>
             </div>
         </div>
     </header>
 
+    <div class="barra-nav-home">
+        <a href="#home" class="nav-link" title="Home"><i class="fa-regular fa-house"></i></a>
+        <a href="#sobre-mim" class="nav-link" title="Sobre mim"><i class="fa-regular fa-user"></i></a>
+        <a href="#skills" class="nav-link" title="Skills"><i class="fa-regular fa-star"></i></a>
+        <a href="#works" class="nav-link" title="Projetos"><i class="fa-regular fa-folder-open"></i></a>
+        <a href="#contact" class="nav-link" title="Contato"><i class="fa-regular fa-paper-plane"></i></a>
+    </div>
+
     <section id="home" class="home">
-        <div class="home-title">
-            <h1><span class="span-azul">Full-Stack</span></h1>
-        </div>
 
-        <div class="home-description">
-            <h2>
-                <span class="span-azul">&lt;h1&gt;</span><br>
-                Olá, eu sou <span class="span-azul">Daniel</span> , um desenvolvedor Full-Stack.<span class="span-azul">&lt;/h1&gt;</span>
-            </h2>
-            <p><span class="span-azul">&lt;p&gt;</span><br><br>Bem-vindo ao meu portfólio! Aqui você encontrará uma
-                seleção dos meus projetos e habilidades.</p>
-            <p>Estou sempre em busca de novos desafios e oportunidades para aprender e crescer como
-                desenvolvedor.<br><br><span class="span-azul">&lt;p&gt;</span><br></p>
-            <a href="">Vamos conversar <i class="fa-solid fa-message"></i></a>
-        </div>
+        <div class="container-pai-home">
 
-        <div class="barra-nav-home">
-            <a href="#sobre-mim" class="nav-link" title="Sobre mim"><i class="fa-solid fa-house"></i></a>
-            <a href="#skills" class="nav-link" title="Skills"><i class="fa-solid fa-cubes"></i></a>
-            <a href="#works" class="nav-link" title="Projetos"><i class="fa-solid fa-laptop-code"></i></a>
-            <a href="#contact" class="nav-link" title="Contato"><i class="fa-solid fa-envelope"></i></a>
-        </div>
+            <div class="card-portfolio">
+                <div class="tipo-perfil">
+                    <img src="assets/imagens/perfilEX.png" alt="foto-perfil" class="foto-perfil">
+                    <h3>Daniel Alves</h3>
+                    <p>Desenvolvedor Full-Stack</p>
+                </div>
 
-        <div class="card-portfolio">
-            <div class="tipo-perfil">
-                <img src="assets/imagens/perfilEX.png" alt="foto-perfil" class="foto-perfil">
-                <h3>Daniel Alves</h3>
-                <p>Desenvolvedor Full-Stack</p>
+                <div class="informacoes-card-portfolio">
+                    <a href="" class="email-link" title="Enviar e-mail"><i class="fa-solid fa-envelope"></i> danielalves@gmail.com.br</a>
+                    <a href="" class="endereco-link" title="Ver endereço"><i class="fa-solid fa-map-marker-alt"></i>
+                        Endereço</a>
+                    <a href="" class="tempo-disponivel-link" title="Tempo disponível"><i class="fa-solid fa-clock"></i>
+                        Disponível</a>
+                    <a href="" class="github-link" title="Ver GitHub"><i class="fa-brands fa-github"></i> GitHub</a>
+                    <a href="" class="linkedin-link" title="Ver LinkedIn"><i class="fa-brands fa-linkedin"></i>
+                        LinkedIn</a>
+                </div>
+
+                <div class="habilidades-card-portfolio">
+                    <ul>
+                        <li></i> HTML</li>
+                        <li></i> CSS</li>
+                        <li></i> JS</li>
+                        <li></i> Node.js</li>
+                    </ul>
+                </div>
+
+                <div class="download-cv">
+                    <a href="assets/curriculo/CV-Daniel-Alves.pdf" download class="download-link" title="Baixar CV"><i
+                            class="fa-solid fa-download"></i> Download CV</a>
+                </div>
             </div>
 
-            <div class="informacoes-card-portfolio">
-                <a href="" class="email-link" title="Enviar e-mail"><i class="fa-solid fa-envelope"></i> E-mail</a>
-                <a href="" class="endereco-link" title="Ver endereço"><i class="fa-solid fa-map-marker-alt"></i>
-                    Endereço</a>
-                <a href="" class="tempo-disponivel-link" title="Tempo disponível"><i class="fa-solid fa-clock"></i>
-                    Disponível</a>
-                <a href="" class="github-link" title="Ver GitHub"><i class="fa-brands fa-github"></i> GitHub</a>
-                <a href="" class="linkedin-link" title="Ver LinkedIn"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+            <div class="home-description">
+
+                <h1 class="title"><span class="span-azul">Full-Stack</span></h1>
+
+                <h2 class="subtitle">
+                    <span class="span-azul-code">&lt;h1&gt;</span><br>
+                    Construindo o futuro com código.<br> Prazer, sou Daniel, desenvolvedor Full-Stack.<span
+                        class="span-azul-code">&lt;h1&gt;</span>
+                </h2>
+                <p><span class="span-azul-code">&lt;p&gt;</span><br>Fico feliz em te ver por aqui! Este espaço é uma
+                    janela para o meu universo como desenvolvedor, onde compartilho um pouco da minha trajetória e dos
+                    projetos que me trouxeram até aqui.<span class="span-azul-code">&lt;p&gt;</span></p>
+                <p>Acredito que os melhores resultados surgem de desafios, por isso estou sempre à procura de novas
+                    oportunidades que me permitam aprender e evoluir.<span class="span-azul-code">&lt;p&gt;</span>
+                </p>
+                <a href="">Vamos conversar<i class="fa-light fa-envelope" style="color: #63E6BE;"></i></a>
             </div>
 
-            <div class="habilidades-card-portfolio">
-                <h4>Habilidades</h4>
-                <ul>
-                    <li></i> HTML</li>
-                    <li></i> CSS</li>
-                    <li></i> JavaScript</li>
-                    <li></i> Node.js</li>
-                </ul>
+
+            <div class="card-info-adicionais">
+                <div class="tecnologias">
+                    <h3>4</h3>
+                    <p>Linguagens Programação</p>
+                </div>
+                <div class="tecnologias">
+                    <h3>1</h3>
+                    <p>Trabalho Desenvolvido</p>
+                </div>
+                <div class="tecnologias">
+                    <h3>2</h3>
+                    <p>Anos de Experiência</p>
+                </div>
             </div>
 
-            <div class="download-cv">
-                <a href="assets/curriculo/CV-Daniel-Alves.pdf" download class="download-link" title="Baixar CV"><i
-                        class="fa-solid fa-file-download"></i> Download CV</a>
-            </div>
         </div>
 
-        <div class="card-info-adicionais">
-            <h3><span>4</span> Linguagens de Programação</h3>
-            <h3><span>6</span> Ferramentas de Desenvolvimento</h3>
-            <h3><span>2</span> Anos de Experiência</h3>
-        </div>
     </section>
 
     <section id="sobre-mim" class="sobre-mim">

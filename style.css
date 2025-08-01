@@ -3,13 +3,22 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto Mono', monospace;
-    background-color: #292F36;
     color: White;
+    background-color: #292F36;
 }
+
+/* span Styles */
 
 .span-azul {
     color: #12F7D6;
 }
+
+.span-azul-code {
+    color: #12F7D6;
+    font-size: 12px;
+    font-weight: 300;
+}
+
 
 /* Header Styles */
 
@@ -18,6 +27,10 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #292F36;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
 }
 
 .header {
@@ -26,7 +39,7 @@ header {
     justify-content: center;
     justify-content: space-between;
     width: 90%;
-    height: 100px;
+    height: 80px;
     border-bottom: #4b4b4b solid 1px;
 }
 
@@ -70,6 +83,7 @@ header {
         flex-direction: column;
         align-items: center;
         padding: 20px 0;
+        height: auto;
     }
 
     .nome-header, .navegacao-header, .link-redes-header {
@@ -77,4 +91,241 @@ header {
         text-align: center;
         justify-content: center;
     }
+}
+
+/* Barra de Navegação */
+
+.barra-nav-home {
+    position: fixed;
+    top: 225px;
+    left: 20px;
+    width: 50px;
+    height: 300px;
+    z-index: 1000;
+    background-color: #292F36;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+    border-radius: 50px;
+    border: #fff 2px solid;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.barra-nav-home a {
+    text-decoration: none;
+    color: #12F7D6;
+    background-color: #292F36;
+}
+
+
+/* Home Section */
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #292F36;
+}
+
+.container-pai-home {
+    width: 85%;
+    height: 100vh;
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    margin: 40px 0px;
+}
+
+.home-description {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+.home-description h1 {
+    font-size: 70px;
+    font-weight: 400;
+    color: white;
+}
+
+.home-description h2 {
+    font-size: 35px;
+    font-weight: 400;
+    color: white;
+    margin: 30px 0 30px 0;
+}
+
+.home-description p {
+    font-size: 18px;
+    font-weight: 300;
+    color: white;
+    margin: 0px 0 30px 0;
+}
+
+.home-description a {
+    text-decoration: none;
+    color: #12F7D6;
+    font-weight: 300;
+    font-size: 36px;
+}
+
+/* Home cv */
+
+.card-portfolio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 280px;
+    height: 480px;
+    border: #fff 3px solid;
+    box-shadow: #12F7D6 -5px -5px 5px;
+    border-radius: 100px 0;
+    background-color: #292F36;
+}
+
+.tipo-perfil {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 50px;
+    border-radius: 120px 0 0 0;
+    margin: 60px 0 10px 0;
+    background-color: transparent;
+}
+
+.tipo-perfil h3 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    margin: 10px 0;
+}
+
+.tipo-perfil p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.tipo-perfil img {
+    width: 80px;
+    height: 80px;
+    border: #12F7D6 solid 2px;
+    border-radius: 50%;
+}
+
+.informacoes-card-portfolio {
+    display: flex;
+    align-self: start;
+    justify-content: center;
+    flex-direction: column;
+    background-color: transparent;
+    margin: 50px 0 10px 0;
+}
+
+.informacoes-card-portfolio a {
+    text-decoration: none;
+    font-weight: 300;
+    margin: 8px 12px;
+    padding: 0px 10px;
+    font-size: 12px;
+}
+
+.habilidades-card-portfolio {
+    display: flex;
+    align-self: center;
+    margin: 8px 0;
+    padding: 0px 10px;
+    background-color: transparent;
+}
+
+.habilidades-card-portfolio ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 15px;
+}
+
+.habilidades-card-portfolio li {
+    background-color: #12F7D6;
+    color: #292F36;
+    padding: 3px 6px;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.download-cv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 300;
+    background-color: #fff;
+    margin: 20px 30px 30px 20px;
+}
+
+.download-cv a {
+    text-decoration: none;
+    color: #292F36;
+    background-color: #fff;
+    font-weight: 600;
+}
+
+.download-cv i {
+    background-color: #fff;
+    color: #292F36;
+}
+
+/* Infomações Card */
+
+.card-info-adicionais {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 200px;
+    height: 250px;
+    border-radius: 50px ;
+    background-color: #1A1E23;
+}
+
+.tecnologias {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    background-color: transparent;
+    gap: 10px;
+}
+
+.card-info-adicionais h3 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #12F7D6;
+    font-size: 40px;
+    margin: 10px 5px;
+    background-color: #1A1E23;
+}
+
+.card-info-adicionais p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+    margin: 10px 0;
+    background-color: #1A1E23;
 }
