@@ -161,7 +161,7 @@ section {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .home {
@@ -207,8 +207,8 @@ section {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 280px;
-    height: 480px;
+    width: 250px;
+    height: 450px;
     border: #fff 3px solid;
     box-shadow: #12F7D6 -5px -5px 5px;
     border-radius: 10px 0;
@@ -278,9 +278,9 @@ section {
 .habilidades-card-portfolio li {
     background-color: #12F7D6;
     color: #292F36;
-    padding: 3px 6px;
+    padding: 2px 5px;
     border-radius: 10px;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .download-cv {
