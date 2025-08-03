@@ -158,21 +158,21 @@ section {
 }
 
 .home-description h1 {
-    font-size: 60px;
+    font-size: 40px;
     font-weight: 400;
     color: white;
     margin: 0 0 50px 20px;
 }
 
 .home-description h2 {
-    font-size: 30px;
+    font-size: 28px;
     font-weight: 400;
     color: white;
     margin: 0 0 50px 20px;
 }
 
 .home-description p {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 300;
     color: white;
     margin: 0 0 0 20px;
@@ -182,7 +182,7 @@ section {
     text-decoration: none;
     color: #12F7D6;
     font-weight: 300;
-    font-size: 36px;
+    font-size: 28px;
     margin: 40px 0 0 20px;
 }
 
