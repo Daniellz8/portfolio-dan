@@ -197,7 +197,7 @@ section {
     height: 480px;
     border: #fff 3px solid;
     box-shadow: #12F7D6 -5px -5px 5px;
-    border-radius: 100px 0;
+    border-radius: 30px 0;
     background-color: #292F36;
 }
 
@@ -411,4 +411,81 @@ section {
     border: #12f7d55c solid 2px;
     box-shadow: 20px 10px 50px rgba(0, 0, 0, 0.164);
     margin-left: 30px;
+}
+
+
+/* MOBILE*/
+
+@media (max-width: 480px) {
+    /* Ajustes na seção Home */
+    .container-pai-home {
+        flex-direction: column;
+        height: auto;
+        width: 95%;
+        margin: 0 auto;
+    }
+    
+    .home {
+        flex-direction: column;
+        height: auto;
+        margin: 20px 0;
+    }
+    
+    .home-description, .home-cv {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    
+    .home-description h1 {
+        font-size: 40px;
+        margin: 40px 0 20px 0;
+    }
+    
+    .home-description h2 {
+        font-size: 24px;
+        margin: 0 0 20px 0;
+    }
+    
+    .home-description p {
+        font-size: 14px;
+    }
+    
+    /* Ajustes na barra de navegação */
+    .barra-nav-home {
+        display: none; /* A barra de navegação lateral pode ser escondida para economizar espaço */
+    }
+    
+    /* Ajustes na seção Sobre mim */
+    .sobre-mim {
+        height: auto;
+        flex-direction: column;
+        padding: 20px 0;
+        background-size: cover;
+    }
+    
+    .descricao-sobre-mim {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    
+    .descricao-sobre-mim h2 {
+        width: 100%;
+        font-size: 30px;
+        margin: 5px 0;
+    }
+    
+    .descricao-sobre-mim p {
+        font-size: 14px;
+    }
+    
+    .foto-sobre-mim {
+        width: 90%;
+        margin-top: 20px;
+    }
+    
+    .foto-sobre-mim img {
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
 }
