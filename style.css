@@ -357,7 +357,6 @@ section {
     justify-content: center;
     width: 85%;
     height: 100px;
-    margin-left: 5%;
     background-color: #292F36;
 }
 
@@ -385,6 +384,7 @@ section {
     flex-direction: column;
     width: 40%;
     background-color: transparent;
+    margin-left: 5%;
 }
 
 .descricao-sobre-mim h2 {
@@ -413,8 +413,8 @@ section {
 }
 
 .foto-sobre-mim img {
-    width: 380px;
-    height: 400px;
+    width: 300px;
+    height: 340px;
     border-radius: 10%;
     border: #12f7d55c solid 2px;
     box-shadow: 20px 10px 50px rgba(0, 0, 0, 0.164);
