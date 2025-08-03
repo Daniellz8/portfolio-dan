@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -17,6 +17,8 @@
     color: #12F7D6;
     font-size: 12px;
     font-weight: 300;
+    margin: 5px 0 0 5px;
+    background-color: transparent;
 }
 
 
@@ -55,7 +57,8 @@ header {
     font-weight: 400;
 }
 
-.navegacao-header, .link-redes-header {
+.navegacao-header,
+.link-redes-header {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -86,7 +89,9 @@ header {
         height: auto;
     }
 
-    .nome-header, .navegacao-header, .link-redes-header {
+    .nome-header,
+    .navegacao-header,
+    .link-redes-header {
         width: 100%;
         text-align: center;
         justify-content: center;
@@ -142,7 +147,7 @@ section {
     display: flex;
     width: 100%;
     height: 100vh;
-    margin: 40px 0px;
+    margin: 50px 0px;
 }
 
 .home-description {
@@ -153,23 +158,24 @@ section {
 }
 
 .home-description h1 {
-    font-size: 70px;
+    font-size: 60px;
     font-weight: 400;
     color: white;
+    margin: 0 0 50px 20px;
 }
 
 .home-description h2 {
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 400;
     color: white;
-    margin: 30px 0 30px 0;
+    margin: 0 0 50px 20px;
 }
 
 .home-description p {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 300;
     color: white;
-    margin: 0px 0 30px 0;
+    margin: 0 0 0 20px;
 }
 
 .home-description a {
@@ -177,6 +183,7 @@ section {
     color: #12F7D6;
     font-weight: 300;
     font-size: 36px;
+    margin: 40px 0 0 20px;
 }
 
 /* Home cv */
@@ -300,7 +307,7 @@ section {
     flex-direction: column;
     width: 200px;
     height: 250px;
-    border-radius: 50px ;
+    border-radius: 50px;
     background-color: #1A1E23;
 }
 
@@ -328,4 +335,80 @@ section {
     color: #fff;
     margin: 10px 0;
     background-color: #1A1E23;
+}
+
+
+/* Sobre mim Section */
+
+.titulo-sobre-mim {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    background-color: #292F36;
+}
+
+.sobre-mim-texto {
+    border-radius: 0 0 20px 20px;
+    padding: 20px 0;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.164);
+}
+
+.sobre-mim {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url('/assets/imagens/background-sobre-mim.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.descricao-sobre-mim {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    background-color: transparent;
+}
+
+.descricao-sobre-mim h2 {
+    font-size: 40px;
+    font-weight: 400;
+    color: #fff;
+    background-color: #292F36;
+    margin: 0 0 10px 0;
+    border: #12f7d5ce solid 2px;
+    padding: 10px 30px;
+    border-radius: 20px 20px 0 0;
+    width: 40%;
+    box-shadow: 0 -10px 20px rgba(0, 0, 0, 0.164);
+}
+
+.descricao-sobre-mim p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+    background-color: transparent;
+    margin: 0 20px;
+}
+
+.foto-sobre-mim {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    background-color: transparent;
+}
+
+.foto-sobre-mim img {
+    width: 420px;
+    height: 480px;
+    border-radius: 10%;
+    border: #12f7d55c solid 2px;
+    box-shadow: 20px 10px 50px rgba(0, 0, 0, 0.164);
+    margin-left: 30px;
 }
