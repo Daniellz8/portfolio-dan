@@ -155,7 +155,7 @@ section {
 }
 
 .container-pai-home {
-    width: 85%;
+    width: 90%;
     margin-left: 5%;
     display: flex;
     align-items: center;
@@ -376,6 +376,7 @@ section {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    justify-content: space-beteween;
 }
 
 .descricao-sobre-mim {
