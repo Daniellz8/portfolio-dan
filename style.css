@@ -382,7 +382,7 @@ section {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 40%;
+    width: 50%;
     background-color: transparent;
     margin-left: 5%;
 }
