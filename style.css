@@ -104,7 +104,7 @@ header {
     position: fixed;
     top: 225px;
     left: 20px;
-    width: 50px;
+    width: 30px;
     height: 300px;
     z-index: 1000;
     background-color: #292F36;
@@ -112,7 +112,7 @@ header {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 40px;
+    gap: 30px;
     border-radius: 50px;
     border: #fff 2px solid;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
