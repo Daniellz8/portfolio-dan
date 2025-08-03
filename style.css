@@ -207,8 +207,8 @@ section {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 250px;
-    height: 450px;
+    width: 240px;
+    height: 380px;
     border: #fff 3px solid;
     box-shadow: #12F7D6 -5px -5px 5px;
     border-radius: 10px 0;
@@ -223,17 +223,22 @@ section {
     width: 100%;
     height: 50px;
     border-radius: 120px 0 0 0;
-    margin: 60px 0 10px 0;
+    margin: 58px 0 10px 0;
     background-color: transparent;
 }
 
 .tipo-perfil h3 {
     color: #fff;
-    margin: 10px 0;
+    font-size: 20px;
+    margin: 5px;
 }
 
 .tipo-perfil p {
     color: #fff;
+    font-size: 11px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    text-decoration: underline;
 }
 
 .tipo-perfil img {
@@ -249,7 +254,7 @@ section {
     justify-content: center;
     flex-direction: column;
     background-color: transparent;
-    margin: 50px 0 10px 0;
+    margin-top: 30px;
 }
 
 .informacoes-card-portfolio a {
@@ -257,13 +262,13 @@ section {
     font-weight: 300;
     margin: 8px 12px;
     padding: 0px 10px;
-    font-size: 12px;
+    font-size: 11px;
 }
 
 .habilidades-card-portfolio {
     display: flex;
     align-self: center;
-    margin: 8px 0;
+    margin: 5px 0;
     padding: 0px 10px;
     background-color: transparent;
 }
@@ -272,7 +277,7 @@ section {
     display: flex;
     flex-direction: row;
     list-style: none;
-    gap: 15px;
+    gap: 5px;
 }
 
 .habilidades-card-portfolio li {
@@ -280,27 +285,28 @@ section {
     color: #292F36;
     padding: 2px 5px;
     border-radius: 10px;
-    font-size: 12px;
+    font-size: 11px;
 }
 
 .download-cv {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 200px;
-    height: 30px;
-    border-radius: 10px;
-    text-decoration: none;
-    font-weight: 300;
-    background-color: #fff;
-    margin: 20px 30px 30px 20px;
+    width: 100%;
+    background-color: transparent;
+    margin: 5px 15px 15px 5px;
 }
 
 .download-cv a {
     text-decoration: none;
+    text-align: center;
     color: #292F36;
     background-color: #fff;
     font-weight: 600;
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 5px 15px;
+    font-size: 14px;
 }
 
 .download-cv i {
