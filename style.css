@@ -7,6 +7,26 @@
     background-color: #292F36;
 }
 
+h1 {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 400;
+}
+
+h3 {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+p {
+    font-size: 14px;
+    font-weight: 300;
+}
+
 /* span Styles */
 
 .span-azul {
@@ -105,14 +125,14 @@ header {
     top: 225px;
     left: 20px;
     width: 30px;
-    height: 300px;
+    height: 280px;
     z-index: 1000;
     background-color: #292F36;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 30px;
+    gap: 20px;
     border-radius: 50px;
     border: #fff 2px solid;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -157,22 +177,16 @@ section {
 }
 
 .home-description h1 {
-    font-size: 40px;
-    font-weight: 400;
     color: white;
     margin: 0 0 40px 20px;
 }
 
 .home-description h2 {
-    font-size: 28px;
-    font-weight: 400;
     color: white;
     margin: 0 0 40px 20px;
 }
 
 .home-description p {
-    font-size: 14px;
-    font-weight: 300;
     color: white;
     margin: 0 0 0 20px;
 }
@@ -213,15 +227,11 @@ section {
 }
 
 .tipo-perfil h3 {
-    font-size: 20px;
-    font-weight: 400;
     color: #fff;
     margin: 10px 0;
 }
 
 .tipo-perfil p {
-    font-size: 16px;
-    font-weight: 300;
     color: #fff;
 }
 
@@ -320,16 +330,13 @@ section {
 }
 
 .card-info-adicionais h3 {
-    font-size: 20px;
     font-weight: 400;
     color: #12F7D6;
-    font-size: 40px;
     margin: 10px 5px;
     background-color: #1A1E23;
 }
 
 .card-info-adicionais p {
-    font-size: 16px;
     font-weight: 300;
     color: #fff;
     margin: 10px 0;
@@ -345,6 +352,7 @@ section {
     justify-content: center;
     width: 100%;
     height: 100px;
+    margin-left: 5%;
     background-color: #292F36;
 }
 
@@ -375,8 +383,6 @@ section {
 }
 
 .descricao-sobre-mim h2 {
-    font-size: 40px;
-    font-weight: 400;
     color: #fff;
     background-color: #292F36;
     margin: 0 0 10px 0;
@@ -388,8 +394,6 @@ section {
 }
 
 .descricao-sobre-mim p {
-    font-size: 16px;
-    font-weight: 300;
     color: #fff;
     background-color: transparent;
     margin: 0 20px;
