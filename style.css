@@ -376,15 +376,15 @@ section {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    margin-left: 5%;
 }
 
 .descricao-sobre-mim {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 50%;
+    width: 45%;
     background-color: transparent;
-    margin-left: 5%;
 }
 
 .descricao-sobre-mim h2 {
