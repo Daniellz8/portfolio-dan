@@ -14,6 +14,8 @@ Este documento lista as tarefas pendentes para o seu portfólio. Use esta lista 
 
 * [ ] **Organizar o código**
 
+* [] **Adicionar código de responsividade**
+
 * [ ] **Implementar JavaScript**
 
 * [ ] **Revisão geral**
