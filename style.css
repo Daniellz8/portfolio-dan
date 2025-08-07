@@ -807,12 +807,12 @@ footer {
     flex-direction: column;
 }
 
-.footer-content p {
+.footer-content p a {
     color: #fff;
     padding: 10px;
 }
 
-.footer-content p:hover {
+.footer-content p a:hover {
     text-decoration: none;
     color: #12F7D6;
     font-weight: 300;
