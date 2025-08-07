@@ -21,3 +21,5 @@ Este documento lista as tarefas pendentes para o seu portfólio. Use esta lista 
 * [ ] **Revisão geral**
 
 * [ ] **Finalização**
+
+* [ ] **Adicionar um easter-egg**
