@@ -807,17 +807,27 @@ footer {
     flex-direction: column;
 }
 
-.footer-content p a {
+.footer-content p {
     color: #fff;
     padding: 10px;
-    text-decoration: none;
-    font-size: 12px;
 }
 
-.footer-content p a:hover {
+.footer-content p :hover {
     text-decoration: none;
     color: #12F7D6;
     font-weight: 300;
+}
+
+.footer-content a {
+    color: #fff;
+    padding: 10px;
+    text-decoretion: none;
+    font-weight: 300;
+    font-size: 12px
+}
+
+.footer-content a :hover {
+    color: #12F7D6;
 }
 
 .privacy-policy {
