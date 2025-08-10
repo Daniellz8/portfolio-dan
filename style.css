@@ -172,11 +172,11 @@ section {
     text-shadow: #000 5px 5px 10px;
 }
 
-.home-drscription h3 {
+.home-drscription a {
     color: #12f7d557;
 }
 
-.home-drscription h3:hover{
+.home-drscription a:hover{
     color: #12F7D6;
     font-weight: 400;
 }
