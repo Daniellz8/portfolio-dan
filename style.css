@@ -172,6 +172,15 @@ section {
     text-shadow: #000 5px 5px 10px;
 }
 
+.home-drscription h3 {
+    color: #12f7d557;
+}
+
+.home-drscription h3:hover{
+    color: #12F7D6;
+    font-weight: 400;
+}
+
 .home-description p {
     color: white;
     margin: 0 0 0 20px;
