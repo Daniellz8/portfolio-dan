@@ -172,7 +172,7 @@ section {
     text-shadow: #000 5px 5px 10px;
 }
 
-.home-drscription a {
+.home-description a {
     color: #12f7d557;
 }
 
@@ -345,6 +345,12 @@ section {
     background-color: #1A1E23;
 }
 
+.card-info-adiconais h3:hover{
+    ransform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3), 0 0 10px #12F7D6;
+    border-color: #12F7D6;
+}
+
 .card-info-adicionais p {
     font-weight: 300;
     color: #fff;
@@ -420,6 +426,12 @@ section {
     border-radius: 10%;
     border: #12f7d557 solid 1px;
     box-shadow: #000000ad 10px 20px 20px;
+}
+
+.sobre-mim img:hover{
+    ransform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3), 0 0 10px #12F7D6;
+    border-color: #12F7D6;
 }
 
 /*===========================================================*//*===========================================================*/
