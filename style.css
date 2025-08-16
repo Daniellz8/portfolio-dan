@@ -794,12 +794,13 @@ section {
 
 .project-dots {
     position: absolute;
-    bottom: 70px;
+    bottom: -15px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
     margin-top: 20px;
+    background-color: transparent;
 }
 
 .dot {
@@ -1036,10 +1037,109 @@ select:-webkit-autofill:focus {
 /*===========================================================*/
 /* Media Queries */
 
+/* Para telas de tablets */
 
+@media (max-width: 1024px) {
+    /* Ajustes gerais para tablets */
+    .header,
+    .container-pai-home,
+    .div-pai-sobre-mim,
+    .skills-container,
+    .div-pai-works,
+    .div-pai-contact {
+        width: 90%; /* Aumenta a largura para ocupar mais espaço na tela */
+    }
+
+    .nome-header {
+        font-size: 20px;
+    }
+
+    .navegacao-header {
+        font-size: 16px;
+    }
+
+    .home-description h1 {
+        font-size: 32px;
+    }
+
+    .home-description h2 {
+        font-size: 24px;
+    }
+}
+
+/* Para telas de celulares */
 
 @media (max-width: 768px) {
+    /* Oculta a barra de navegação à esquerda em telas de celular */
     .barra-nav {
         display: none;
     }
+    
+    /* Reorganiza o layout principal para uma única coluna */
+    .container-pai-home,
+    .div-pai-sobre-mim,
+    .skills-container,
+    .div-pai-works,
+    .div-pai-contact {
+        flex-direction: column;
+        width: 90%;
+        padding: 20px 0;
+        height: auto;
+    }
+
+    /* Oculta ou ajusta a imagem na seção "Sobre mim" */
+    .sobre-mim img {
+        display: none; /* Ou ajuste o tamanho se quiser mantê-la */
+    }
+
+    .descricao-sobre-mim,
+    .form-contact {
+        width: 100%;
+        padding: 0;
+    }
+    
+    /* Alinhamento de texto e cabeçalhos */
+    .home-description h1,
+    .home-description h2,
+    .home-description p {
+        text-align: center;
+        margin: 10px;
+    }
+    
+    .link-msg {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    /* Ajusta o card de skills para ocupar a largura total */
+    .card-skills {
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+
+    .div-pai-works {
+        width: 90%;
+    }
+
+    .work-item {
+        width: 100%;
+    }
+
+    .project-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .project-links a {
+        width: 80%;
+        text-align: center;
+        margin: 5px auto;
+    }
+    
+    .nav-button {
+        /* Esconde ou ajusta os botões de navegação lateral se eles forem um problema de layout */
+        display: none;
+    }
 }
+
+/*===========================================================*/
