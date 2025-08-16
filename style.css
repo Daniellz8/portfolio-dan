@@ -1040,6 +1040,7 @@ select:-webkit-autofill:focus {
 /* Para telas de tablets */
 
 @media (max-width: 1024px) {
+
     /* Ajustes gerais para tablets */
     .header,
     .container-pai-home,
@@ -1047,7 +1048,46 @@ select:-webkit-autofill:focus {
     .skills-container,
     .div-pai-works,
     .div-pai-contact {
-        width: 90%; /* Aumenta a largura para ocupar mais espaço na tela */
+        width: 90%;
+    }
+
+    .container-pai-home {
+        flex-direction: column;
+        height: auto;
+        padding: 40px 0;
+        gap: 30px;
+    }
+
+    .home-description {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .home-description h1,
+    .home-description h2,
+    .home-description p,
+    .link-msg {
+        margin: 10px 0;
+    }
+
+    .div-pai-sobre-mim {
+        flex-direction: column;
+        height: auto;
+        padding: 40px 0;
+        gap: 30px;
+    }
+
+    .descricao-sobre-mim,
+    .img-section {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .sobre-mim img {
+        width: 80%;
+        height: auto;
     }
 
     .nome-header {
@@ -1070,11 +1110,12 @@ select:-webkit-autofill:focus {
 /* Para telas de celulares */
 
 @media (max-width: 768px) {
+
     /* Oculta a barra de navegação à esquerda em telas de celular */
     .barra-nav {
         display: none;
     }
-    
+
     /* Reorganiza o layout principal para uma única coluna */
     .container-pai-home,
     .div-pai-sobre-mim,
@@ -1087,9 +1128,19 @@ select:-webkit-autofill:focus {
         height: auto;
     }
 
+    /* Esconde o card do CV em telas de celular */
+    .card-portfolio {
+        display: none;
+    }
+
+    /* Esconde o card de informações adicionais em telas de celular */
+    .card-info-adicionais {
+        display: none;
+    }
+
     /* Oculta ou ajusta a imagem na seção "Sobre mim" */
     .sobre-mim img {
-        display: none; /* Ou ajuste o tamanho se quiser mantê-la */
+        display: none;
     }
 
     .descricao-sobre-mim,
@@ -1097,7 +1148,7 @@ select:-webkit-autofill:focus {
         width: 100%;
         padding: 0;
     }
-    
+
     /* Alinhamento de texto e cabeçalhos */
     .home-description h1,
     .home-description h2,
@@ -1105,7 +1156,7 @@ select:-webkit-autofill:focus {
         text-align: center;
         margin: 10px;
     }
-    
+
     .link-msg {
         text-align: center;
         margin-top: 20px;
@@ -1129,13 +1180,13 @@ select:-webkit-autofill:focus {
         flex-direction: column;
         gap: 10px;
     }
-    
+
     .project-links a {
         width: 80%;
         text-align: center;
         margin: 5px auto;
     }
-    
+
     .nav-button {
         /* Esconde ou ajusta os botões de navegação lateral se eles forem um problema de layout */
         display: none;
