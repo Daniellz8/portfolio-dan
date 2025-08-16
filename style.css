@@ -1111,12 +1111,11 @@ select:-webkit-autofill:focus {
 
 @media (max-width: 768px) {
 
-    /* Oculta a barra de navegação à esquerda em telas de celular */
+    /* --- GERAL E LAYOUT PRINCIPAL --- */
     .barra-nav {
         display: none;
     }
 
-    /* Reorganiza o layout principal para uma única coluna */
     .container-pai-home,
     .div-pai-sobre-mim,
     .skills-container,
@@ -1128,28 +1127,37 @@ select:-webkit-autofill:focus {
         height: auto;
     }
 
-    /* Esconde o card do CV em telas de celular */
-    .card-portfolio {
-        display: none;
-    }
-
-    /* Esconde o card de informações adicionais em telas de celular */
+    /* Esconde os cards na seção Home */
+    .card-portfolio,
     .card-info-adicionais {
         display: none;
     }
 
-    /* Oculta ou ajusta a imagem na seção "Sobre mim" */
-    .sobre-mim img {
+    /* --- HEADER --- */
+    .header {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 20px 0;
+    }
+
+    /* Oculta a navegação e os links de redes sociais para simplificar */
+    .navegacao-header,
+    .link-redes-header {
         display: none;
     }
 
-    .descricao-sobre-mim,
+    .nome-header {
+        text-align: center;
+    }
+
+    /* --- HOME --- */
+    .home-description,
     .form-contact {
         width: 100%;
         padding: 0;
     }
 
-    /* Alinhamento de texto e cabeçalhos */
     .home-description h1,
     .home-description h2,
     .home-description p {
@@ -1162,12 +1170,23 @@ select:-webkit-autofill:focus {
         margin-top: 20px;
     }
 
-    /* Ajusta o card de skills para ocupar a largura total */
+    /* --- SOBRE MIM --- */
+    .sobre-mim img {
+        display: none;
+    }
+
+    .descricao-sobre-mim {
+        width: 100%;
+        padding: 0;
+    }
+
+    /* --- SKILLS --- */
     .card-skills {
         grid-template-columns: 1fr;
         width: 100%;
     }
 
+    /* --- WORKS --- */
     .div-pai-works {
         width: 90%;
     }
@@ -1188,9 +1207,21 @@ select:-webkit-autofill:focus {
     }
 
     .nav-button {
-        /* Esconde ou ajusta os botões de navegação lateral se eles forem um problema de layout */
-        display: none;
+        display: none; /* Esconde os botões de navegação lateral */
+    }
+
+    /* --- FOOTER --- */
+    .footer {
+        flex-direction: column; /* Transforma o layout horizontal em vertical */
+        align-items: center; /* Centraliza todos os elementos */
+        height: auto;
+        gap: 20px;
+        padding: 20px 0;
+    }
+    
+    .footer-content,
+    .privacy-policy {
+        flex-direction: column; /* Garante que os itens internos também fiquem empilhados */
+        align-items: center;
     }
 }
-
-/*===========================================================*/
