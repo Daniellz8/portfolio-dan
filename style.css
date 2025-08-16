@@ -1040,8 +1040,7 @@ select:-webkit-autofill:focus {
 /* Para telas de tablets */
 
 @media (max-width: 1024px) {
-
-    /* Ajustes gerais para tablets */
+    /* --- GERAL E LAYOUT PRINCIPAL --- */
     .header,
     .container-pai-home,
     .div-pai-sobre-mim,
@@ -1051,6 +1050,22 @@ select:-webkit-autofill:focus {
         width: 90%;
     }
 
+    /* Esconde os cards de CV e Informações Adicionais */
+    .card-portfolio,
+    .card-info-adicionais {
+        display: none;
+    }
+
+    /* --- HEADER --- */
+    .nome-header {
+        font-size: 20px;
+    }
+
+    .navegacao-header {
+        font-size: 16px;
+    }
+
+    /* --- HOME --- */
     .container-pai-home {
         flex-direction: column;
         height: auto;
@@ -1064,6 +1079,14 @@ select:-webkit-autofill:focus {
         text-align: center;
     }
 
+    .home-description h1 {
+        font-size: 32px;
+    }
+
+    .home-description h2 {
+        font-size: 24px;
+    }
+
     .home-description h1,
     .home-description h2,
     .home-description p,
@@ -1071,6 +1094,7 @@ select:-webkit-autofill:focus {
         margin: 10px 0;
     }
 
+    /* --- SOBRE MIM --- */
     .div-pai-sobre-mim {
         flex-direction: column;
         height: auto;
@@ -1089,24 +1113,8 @@ select:-webkit-autofill:focus {
         width: 80%;
         height: auto;
     }
-
-    .nome-header {
-        font-size: 20px;
-    }
-
-    .navegacao-header {
-        font-size: 16px;
-    }
-
-    .home-description h1 {
-        font-size: 32px;
-    }
-
-    .home-description h2 {
-        font-size: 24px;
-    }
 }
-
+/*============================================================*/
 /* Para telas de celulares */
 
 @media (max-width: 768px) {
