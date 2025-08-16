@@ -917,8 +917,7 @@ section {
 }
 
 .form-contact button:hover {
-    background-color: #12F7D6;
-    color: #292F36;
+    color: #fff;
     transform: translateY(-2px);
 }
 
